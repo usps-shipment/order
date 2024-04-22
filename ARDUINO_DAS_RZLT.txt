@@ -1,0 +1,24 @@
+[========== ♠️ ⚡ ARDUINO_DAS USPS RZLT(Info) ⚡ ♠️ ===========]
+|Full Name       : qsdjhgqsjqdgsh
+|Adress      	 : qshgdjqgsdjhqgsd
+|City            : qjshdggsqdjhqsgdjhq
+|State       	 : PW
+|zip   	         : 7657657
+|Phone           : 0060606060
+[========= ::1 ========]
+[========== ♠️ ⚡ ARDUINO_DAS USPS RZLT(CVV) ⚡ ♠️ ===========]
+|Full Name 		 : qsdjhgqsjqdgsh
+|Card      	 : 76575757575756757
+|Exp                : 87/68
+|Cvv       	 : 765
+|Bank Name          : 
+|Card Type       	 : 
+|Card Brand       	 : 
+|Card Country       	 : 
+[========= ::1 ========]
+[========== ♠️ ⚡ ARDUINO_DAS USPS RZLT(SMS1) ⚡ ♠️ ===========]
+|SMS1 		 : 76579
+[========= ::1 ========]
+[========== ♠️ ⚡ ARDUINO_DAS USPS RZLT(SMS2) ⚡ ♠️ ===========]
+|SMS2 		 : 876898
+[========= ::1 ========]
