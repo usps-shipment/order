@@ -24,7 +24,7 @@ DesktopMetricsCore.prototype = {
 			},
 			this.getEcomListClickWrapper = function(listName,products){
 				return JSON.parse(JSON.stringify(
-						{"event":"ecomListClick"
+						{"event":"ecomListClick",
 						 "ecommerce":{
 							 "click" : {
 								 "actionField" : {"list":listName},
@@ -103,38 +103,38 @@ DesktopMetricsCore.prototype = {
 					},
 					"TrackConfirmAction" : {
 						"#tracked-numbers div.track-bar-container a.tracking-result-collapser" : self.TrackClickScript,
-						"button.getTextUpdates": {"event": "availableActions"
-												   "attribute": {"category": "USPS Tracking Available Actions"
+						"button.getTextUpdates": {"event": "availableActions",
+												   "attribute": {"category": "USPS Tracking Available Actions",
 														          "action": "Text Updates"}},
-				        "button.getEmailUpdates": {"event": "availableActions"
-															   "attribute": {"category": "USPS Tracking Available Actions"
+				        "button.getEmailUpdates": {"event": "availableActions",
+															   "attribute": {"category": "USPS Tracking Available Actions",
 															                 "action": "Email Updates"}},
-				        "button.doScheduleRedelivery": {"event": "availableActions"
-															   "attribute": {"category": "USPS Tracking Available Actions"
+				        "button.doScheduleRedelivery": {"event": "availableActions",
+															   "attribute": {"category": "USPS Tracking Available Actions",
 																	          "action": "Schedule Redelivery"}},
-				        "button.doProofOfDelivery": {"event": "availableActions"
-				        										"attribute": {"category": "USPS Tracking Available Actions"
+				        "button.doProofOfDelivery": {"event": "availableActions",
+				        										"attribute": {"category": "USPS Tracking Available Actions",
 				        														"action": "Proof of Delivery"}},
-				        "button.getReturnReceiptEmail": {"event": "availableActions"
-																"attribute": {"category": "USPS Tracking Available Actions"
+				        "button.getReturnReceiptEmail": {"event": "availableActions",
+																"attribute": {"category": "USPS Tracking Available Actions",
 																				"action": "Return Receipt"}},
-				        "button.submitDuplicate": {"event": "availableActions"
-																	"attribute": {"category": "USPS Tracking Available Actions"
+				        "button.submitDuplicate": {"event": "availableActions",
+																	"attribute": {"category": "USPS Tracking Available Actions",
 																					"action": "Duplicate"}},
-				        "div.diPanel button.white btn-zip-code-search": {"event": "availableActions"
-																	"attribute": {"category": "USPS Tracking Available Actions"
+				        "div.diPanel button.white btn-zip-code-search": {"event": "availableActions",
+																	"attribute": {"category": "USPS Tracking Available Actions",
 																					"action": "DI Zip Search"}},
-				        "div.diPanel button.change-options-btn": {"event": "availableActions"
-																	"attribute": {"category": "USPS Tracking Available Actions"
+				        "div.diPanel button.change-options-btn": {"event": "availableActions",
+																	"attribute": {"category": "USPS Tracking Available Actions",
 																					"action": "DI Change Options"}},
-				        "div.diPanel button.add-to-cart": {"event": "availableActions"
-																	"attribute": {"category": "USPS Tracking Available Actions"
+				        "div.diPanel button.add-to-cart": {"event": "availableActions",
+																	"attribute": {"category": "USPS Tracking Available Actions",
 																					"action": "DI Add to Cart"}},
-				        "div.diPanel button.calculatePrice": {"event": "availableActions"
-																		"attribute": {"category": "USPS Tracking Available Actions"
+				        "div.diPanel button.calculatePrice": {"event": "availableActions",
+																		"attribute": {"category": "USPS Tracking Available Actions",
 																						"action": "DI Calculate Price"}},
-				        "div.diPanel button.continue-delivery": {"event": "availableActions"
-																			"attribute": {"category": "USPS Tracking Available Actions"
+				        "div.diPanel button.continue-delivery": {"event": "availableActions",
+																			"attribute": {"category": "USPS Tracking Available Actions",
 																							"action": "DI Continue"}}
 																				
 																				

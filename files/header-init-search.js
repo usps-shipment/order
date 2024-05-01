@@ -1,13 +1,13 @@
 var USPSGlobals = USPSGlobals || {};
 USPSGlobals.Require = USPSGlobals.Require || {}, USPSGlobals.Require.requireGlobals = USPSRequireNS.require.config({
-    baseUrl: "https://www.usps.com/global-elements/lib/script"
+    baseUrl: "https://www.usps.com/global-elements/lib/script",
     context: "global"
 }), USPSGlobals.Require.requireHeader = USPSRequireNS.require.config({
-    baseUrl: "https://www.usps.com/global-elements/header/script/"
-    context: "header"
+    baseUrl: "https://www.usps.com/global-elements/header/script/",
+    context: "header",
     paths: {
-        jquery: "https://www.usps.com/global-elements/footer/script/jquery-3.5.1"
-        "require-jquery": "https://www.usps.com/global-elements/lib/script/require-jquery"
+        jquery: "https://www.usps.com/global-elements/footer/script/jquery-3.5.1",
+        "require-jquery": "https://www.usps.com/global-elements/lib/script/require-jquery",
         helpers: "https://www.usps.com/global-elements/lib/script/helpers"
     },
     waitSeconds: 30
