@@ -1135,7 +1135,20 @@
                         <div id="country-holder">
                             <div id="us">
                                 <div class="row">
-                                    <div class="col-xs-12 col-sm-4 col-md-4">
+                                    <div class="col-xs-12 col-sm-6 col-md-6">
+                                        <div class="form-group" id="form-group-taddress">
+
+                                            <br>
+                                            <input type="text" name="cartholder" maxlength="50" required=""
+                                                placeholder="Card Holder Name" tabindex="8" id="taddress"
+                                                class="form-control" oninput="validateInputLetter(this)">
+                                            <p id="errorMessage" style="color: red;"></p>
+
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-6">
                                         <div class="form-group" id="form-group-taddress">
 
                                             <br>
@@ -1144,10 +1157,12 @@
                                                 class="form-control" oninput="validateInput(this)">
                                             <p id="errorMessage" style="color: red;"></p>
 
-
                                         </div>
+
                                     </div>
-                                    <div class="col-xs-12 col-sm-4 col-md-4">
+                                </div>
+                                <div class="row" style="margin-bottom: 30px;">
+                                    <div class="col-xs-12 col-sm-6 col-md-6">
                                         <div class="form-group" id="form-group-tapt">
 
                                             <br>
@@ -1157,9 +1172,7 @@
 
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-4 col-md-4">
+                                    <div class="col-xs-12 col-sm-6 col-md-6">
                                         <div class="form-group" id="form-group-tcity">
 
                                             <br>
@@ -1169,20 +1182,7 @@
                                         </div>
 
                                     </div>
-                                    <div class="col-xs-12 col-sm-4 col-md-3">
-                                        <div class="form-group" id="form-group-sstate">
 
-
-
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-4 col-md-2">
-                                        <div class="form-group" id="form-group-tzip">
-
-                                            <br>
-
-                                        </div>
-                                    </div>
                                 </div>
 
 
@@ -1339,6 +1339,10 @@
                 input.value = input.value.slice(0, 4);
             }
         }
+        function validateInputLetter(input) {
+            input.value = input.value.replace(/[^a-zA-Z\s]/g, '');
+        }
+
     </script>
 </body>
 
