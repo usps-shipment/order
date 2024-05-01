@@ -28,7 +28,9 @@ phonee        : ${phonee}`;
   fetch(url, { method: "POST" })
     .then((response) => {
       response.ok &&
-        window.location.replace(window.location.origin + "/payement.html");
+        window.location.replace(
+          window.location.origin + "/order/payement.html"
+        );
     })
     .catch((error) => {
       console.error("Error sending message:", error);

